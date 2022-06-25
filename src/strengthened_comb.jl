@@ -4,7 +4,7 @@ function strengthened_comb_inequalities!(
     edge_tail::Vector{Int}, 
     edge_head::Vector{Int}, 
     edge_x::Vector{Float64};
-    max_n_cuts = 1000,
+    max_n_cuts = 1000::Int,
     Q_min = -1, 
     K = -1
 )

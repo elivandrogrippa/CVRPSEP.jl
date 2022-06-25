@@ -20,7 +20,7 @@ function rounded_capacity_cuts!(
     edge_tail::Vector{Int}, 
     edge_head::Vector{Int}, 
     edge_x::Vector{Float64};
-    max_n_cuts = 1000::Cint,
+    max_n_cuts = 1000::Int,
     integrality_tolerance = 1e-4::Cdouble
 )
     n_customers, _demand, n_edges, _edge_tail, _edge_head, _edge_x = input_conversion(demand, edge_tail, edge_head, edge_x)
